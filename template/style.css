@@ -98,3 +98,14 @@ html{
   .product-rating{
     margin-bottom: 1rem;
   }
+
+  /* side-bar */
+
+  .brand button{
+      font-size:3rem;
+      padding:.5rem;
+      background:none;
+      border:none;
+      color:#ffffff;
+      cursor: pointer;
+    }
