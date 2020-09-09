@@ -1,10 +1,24 @@
-import React from 'react';
-import data from "../data";
+import React,{useState,useEffect} from 'react';
+// import data from "../data";
 import { Link} from 'react-router-dom';
+import axios from 'axios';
 
 function ProductScreen(props){
 
-  const product = data.products.find(x=> x._id === props.match.params.id);
+  const product = products.find(x=> x._id === props.match.params.id);
+
+  const [products,setProducts]=useState([]);
+
+useEffect(() => {
+  const fetchData = async()=>{
+    const {data}= await axios.get("/api/products");
+    setProducts(data);
+  }
+  return () => {
+    //
+  }
+}, [])
+
     return <div >
       <div className="back-to-result">
       <Link to="/">Back to result</Link>
