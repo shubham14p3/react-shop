@@ -8,7 +8,8 @@ export default {
       price: 60,
       brand: ' Nike',
       rating: 4.5,
-      numReviews: 10
+      numReviews: 10,
+      countInStock: 6,
     },
     {
       _id: '2',
@@ -28,7 +29,8 @@ export default {
       price: 70,
       brand: ' Nike',
       rating: 4.5,
-      numReviews: 8
+      numReviews: 8,
+      countInStock: 6,
     }, {
       _id: '4',
       name: 'Best Pants',
@@ -37,17 +39,8 @@ export default {
       price: 70,
       brand: ' Nike',
       rating: 4.5,
-      numReviews: 8
-    },
-    , {
-      _id: '5',
-      name: 'Best Pants',
-      category: 'Pants',
-      image: '/images/d1.jpg',
-      price: 70,
-      brand: ' Nike',
-      rating: 4.5,
-      numReviews: 8
+      numReviews: 8,
+      countInStock: 6,
     },
   ]
 }
