@@ -1,76 +1,65 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# React Shop Amazona
 
-# Project Name
+Welcome to my React and Node tutorial to build a fully-functional e-commerce website. Building an e-commerce website using React and Node.JS.
 
-> One paragraph statement about the project.
+## Demo Website
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+👉 Demo : https://node-react-ecommerce-app.herokuapp.com/
 
 
-## Getting Started
+## You Will Learn
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- HTML5 and CSS3: Semantic Elements, CSS Grid, Flexbox
+- React: Components, Props, Events, Hooks, Router, Axios
+- Redux: Store, Reducers, Actions
+- Node & Express: Web API, Body Parser, File Upload, JWT
+- MongoDB: Mongoose, Aggregation
+- Development: ESLint, Babel, Git, Github,
+- Deployment: Heroku
+- Watch React & Node Tutorial
+
+## Run Locally
+
+### 1. Clone repo
+
+```
+$ git clone git@github.com:basir/node-react-ecommerce.git
+$ cd node-react-ecommerce
+```
+
+### 2. Install MongoDB
+
+Download it from here: https://docs.mongodb.com/manual/administration/install-community/
+
+### 3. Run Backend
+
+```
+$ npm install
+$ npm start
+```
+
+### 4. Run Frontend
+
+```
+# open new terminal
+$ cd frontend
+$ npm install
+$ npm start
+```
+
+### 5. Create Admin User
+
+- Run this on chrome: http://localhost:5000/api/users/createadmin
+- It returns admin email and password
+
+### 6. Login
+
+- Run http://localhost:3000/signin
+- Enter admin email and password and click signin
+
+### 7. Create Products
+
+- Run http://localhost:3000/products
+- Click create product and enter product info
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
